@@ -2,6 +2,7 @@ import type { GetStaticPropsContext, NextPage } from "next";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import { readdirSync, readFileSync } from "fs";
+import AudioPlayer from "../components/Audio";
 
 const Home: NextPage<any> = (props) => {
   return (
@@ -13,12 +14,18 @@ const Home: NextPage<any> = (props) => {
       </Head>
       <div className={styles.container}>
         <div className={styles.header}>
-          <div className={styles.headerBg}></div>
-          <img
-            className={styles.albumart}
-            src={props.albumart}
-            alt={props.title}
-          />
+          <div className={styles.albumWrapper}>
+            {props.previewLink && (
+              <div className={styles.audioControls}>
+                <AudioPlayer url={props.previewLink} />
+              </div>
+            )}
+            <img
+              className={styles.albumart}
+              src={props.albumart}
+              alt={props.title}
+            />
+          </div>
           <div className={styles.title}>{props.title}</div>
           <div className={styles.author}>{props.author}</div>
         </div>
