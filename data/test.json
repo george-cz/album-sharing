@@ -1,0 +1,32 @@
+{
+  "title": "Master of Puppets",
+  "author": "Metallica",
+  "albumart": "https://d25-a.sdn.cz/d_25/c_img_G_Du/lbnuSt.jpeg",
+  "links": [
+    {
+      "name": "Soundcloud",
+      "image": "/SoundCloud.png",
+      "link": "http://facebook.com"
+    },
+    {
+      "name": "Apple Music",
+      "image": "/applemusic.png",
+      "link": "http://facebook.com"
+    },
+    {
+      "name": "Spotify",
+      "image": "/spotify.png",
+      "link": "http://facebook.com"
+    },
+    {
+      "name": "Youtube  Music",
+      "image": "/ytmusic.png",
+      "link": "http://facebook.com"
+    },
+    {
+      "name": "Youtube",
+      "image": "/yt.png",
+      "link": "http://facebook.com"
+    }
+  ]
+}

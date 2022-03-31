@@ -1,11 +1,9 @@
-import type { NextPage } from "next";
+import type { GetStaticPropsContext, NextPage } from "next";
 import styles from "../styles/Home.module.css";
-import data from "../data.json";
 import Head from "next/head";
+import { readdirSync, readFileSync } from "fs";
 
-type HomeProps = typeof data;
-
-const Home: NextPage<HomeProps> = (props) => {
+const Home: NextPage<any> = (props) => {
   return (
     <>
       <Head>
@@ -25,7 +23,7 @@ const Home: NextPage<HomeProps> = (props) => {
           <div className={styles.author}>{props.author}</div>
         </div>
         <div className={styles.gridwrapper}>
-          {props.links.map((link) => (
+          {props.links.map((link: any) => (
             <a className={styles.card} href={link.link} key={link.link}>
               <img
                 src={link.image}
@@ -46,10 +44,23 @@ const Home: NextPage<HomeProps> = (props) => {
     </>
   );
 };
-
-export async function getStaticProps() {
+export async function getStaticPaths() {
+  const datas = readdirSync(process.cwd() + "/data").map(
+    (filename) => "/" + filename.split(".")[0]
+  );
   return {
-    props: data,
+    paths: datas,
+    fallback: false,
+  };
+}
+
+export async function getStaticProps(context: GetStaticPropsContext) {
+  const content = readFileSync(
+    process.cwd() + "/data/" + context.params?.album + ".json",
+    "utf-8"
+  );
+  return {
+    props: JSON.parse(content),
   };
 }
 
