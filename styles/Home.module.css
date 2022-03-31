@@ -1,5 +1,5 @@
 .container {
-  @apply min-h-screen max-w-5xl flex mx-auto justify-center items-center flex-col text-slate-100;
+  @apply min-h-screen min-h-[-webkit-fill-available] max-w-5xl flex mx-auto justify-center items-center flex-col text-slate-100;
 }
 
 .header {
