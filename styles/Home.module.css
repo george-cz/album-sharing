@@ -50,15 +50,19 @@
   hover:from-slate-200
 
   flex
-  justify-between;
+  justify-between
+  items-center;
 }
 
 .serviceImg {
-  @apply block h-auto w-auto max-w-[6rem] object-contain;
+  @apply block w-auto max-w-[6rem] object-contain;
 }
 
 .playbutton {
   @apply px-4 py-2 border-slate-300 border-[1px] rounded-md bg-gradient-to-t
   from-slate-100
-  to-white;
+  to-white flex;
+}
+.footer {
+  @apply py-6 text-slate-500 text-center;
 }

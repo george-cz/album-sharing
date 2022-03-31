@@ -5,6 +5,11 @@
   "albumart": "/sentiment.jpg",
   "links": [
     {
+      "name": "Soundcloud",
+      "image": "/SoundCloud.png",
+      "link": "http://facebook.com"
+    },
+    {
       "name": "Apple Music",
       "image": "/applemusic.png",
       "link": "http://facebook.com"
