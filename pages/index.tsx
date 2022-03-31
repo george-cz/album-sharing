@@ -36,13 +36,13 @@ const Home: NextPage<HomeProps> = (props) => {
             </a>
           ))}
         </div>
-        <p className={styles.footer}>
-          <a href="mailto:jiri@vyhnalek.net">
-            Made by jiri@vyhnalek.net<br></br>
-            E-mail me!
-          </a>
-        </p>
       </div>
+      <p className={styles.footer}>
+        <a href="mailto:jiri@vyhnalek.net">
+          Made by jiri@vyhnalek.net<br></br>
+          E-mail me!
+        </a>
+      </p>
     </>
   );
 };
