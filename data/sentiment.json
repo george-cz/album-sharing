@@ -6,12 +6,7 @@
     {
       "name": "Soundcloud",
       "image": "/SoundCloud.png",
-      "link": "http://facebook.com"
-    },
-    {
-      "name": "Apple Music",
-      "image": "/applemusic.png",
-      "link": "http://facebook.com"
+      "link": "https://soundcloud.com/vasek_svarc/vasek-svarc-adam-babuljak-sentiment/s-uIs6XbeOb0P?utm_source=album-sharing&utm_medium=text&utm_campaign=social_sharing"
     },
     {
       "name": "Spotify",
@@ -19,13 +14,19 @@
       "link": "http://facebook.com"
     },
     {
-      "name": "Youtube  Music",
-      "image": "/ytmusic.png",
-      "link": "http://facebook.com"
-    },
-    {
       "name": "Youtube",
       "image": "/yt.png",
+      "link": "https://www.youtube.com/watch?v=VU9Ax9wN08A"
+    },
+    {
+      "name": "Apple Music",
+      "image": "/applemusic.png",
+      "link": "http://facebook.com"
+    },
+    
+    {
+      "name": "Youtube  Music",
+      "image": "/ytmusic.png",
       "link": "http://facebook.com"
     }
   ]
