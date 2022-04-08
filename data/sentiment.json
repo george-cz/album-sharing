@@ -4,30 +4,29 @@
   "albumart": "/sentiment.jpg",
   "links": [
     {
-      "name": "Soundcloud",
-      "image": "/SoundCloud.png",
-      "link": "https://soundcloud.com/vasek_svarc/vasek-svarc-adam-babuljak-sentiment/s-uIs6XbeOb0P?utm_source=album-sharing&utm_medium=text&utm_campaign=social_sharing"
-    },
-    {
       "name": "Spotify",
       "image": "/spotify.png",
-      "link": "http://facebook.com"
-    },
-    {
-      "name": "Youtube",
-      "image": "/yt.png",
-      "link": "https://www.youtube.com/watch?v=VU9Ax9wN08A"
+      "link": "https://open.spotify.com/track/4ytqwHlq7mLmqtecVfQSgk?si=i2BJPKvsRJOrkg3Q0esDDw"
     },
     {
       "name": "Apple Music",
       "image": "/applemusic.png",
-      "link": "http://facebook.com"
+      "link": "https://music.apple.com/cz/album/sentiment/1617434363?i=1617434364"
     },
-    
     {
-      "name": "Youtube  Music",
+      "name": "Youtube Music",
       "image": "/ytmusic.png",
-      "link": "http://facebook.com"
+      "link": "https://music.youtube.com/watch?v=LEKArrKT4l0&feature=share"
+    },
+    {
+      "name": "Youtube",
+      "image": "/yt.png",
+      "link": "https://youtu.be/VU9Ax9wN08A"
+    },
+    {
+      "name": "Soundcloud",
+      "image": "/SoundCloud.png",
+      "link": "https://soundcloud.com/vasek_svarc/vasek-svarc-adam-babuljak-sentiment?utm_source=album-sharing&utm_medium=text&utm_campaign=social_sharing"
     }
   ]
 }
